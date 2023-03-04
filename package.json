@@ -1,0 +1,30 @@
+{
+  "name": "atajs-cli",
+  "description": "This package serves cli commands with ata.js",
+  "version": "1.0.1",
+  "main": "index.js",
+  "bin": {
+    "ata-cli": "./index.js"
+  },
+  "keywords": [
+    "ata",
+    "ata.js"
+  ],
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "ata.js": "^8.0.11",
+    "repo-url": "^1.0.0",
+    "request": "^2.88.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mustafaozver/ata.js.git"
+  },
+  "devDependencies": {
+    "mocha": "10.2.0"
+  },
+  "author": "Mustafa ÖZVER",
+  "license": "MIT"
+}
